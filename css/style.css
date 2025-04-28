@@ -88,15 +88,23 @@ nav {
 	font-size: 1vw;
 }
 
-nav a {
+p a {
 	color: #67b0e8;
+}
+
+div a {
 	text-decoration: none;
 }
 
-nav a:hover {
+div a:hover {
 	color: #8ccf7e;
 	animation-name: hover-link;
 	animation-duration: 0.25s;
+}
+
+nav a {
+	color: #67b0e8;
+	text-decoration: none;
 }
 
 #contenu {
